@@ -1,4 +1,4 @@
-# Running a Dockerfile
+# Running the project
 
 This repository contains a Dockerfile that allows you to create a Docker container for a specific application or service. Follow the steps below to build and run the Docker container.
 
