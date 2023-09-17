@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section>
+  <article>
+    <h1>Culinary Delights at Little Lemon</h1>
+    <!--Begin row-->
+    <div class="row">
+      <!--Begin col-->
+      <div class="column">
+        <p>
+          Welcome to an extraordinary culinary journey at Little Lemon, where flavors come alive and creativity knows no bounds. Nestled in the heart of downtown, our restaurant is a vibrant testament to the art of gastronomy.
+        </p>
+        <p>
+          At Little Lemon, we don't just serve food; we craft experiences. Our kitchen is a playground for talented chefs who merge global influences to create dishes that will tantalize your taste buds and leave you craving for more.
+        </p>
+
+        <p>
+          Our menu is a testament to our commitment to innovation. With a rotating selection of dishes inspired by cuisines from around the world, every visit to Little Lemon promises a delightful surprise.
+        </p>
+
+        <p>
+          Little Lemon is more than just a restaurant; it's a celebration of flavors and a hub for food enthusiasts. Join us for brunch, lunch, or dinner, and immerse yourself in an atmosphere that blends contemporary elegance with warm hospitality.
+        </p>
+
+        <p>
+          We take pride in our diverse team of culinary experts who bring a wealth of experience and passion to our kitchen. From our head chef's culinary wizardry to our friendly servers' dedication, everyone at Little Lemon is committed to making your dining experience truly exceptional.
+        </p>
+
+        <p>
+          Come and discover the magic of Little Lemon, where every meal is a culinary masterpiece waiting to be savored.
+        </p>
+      </div>
+      <!--End col-->
+
+      <!--Begin col-->
+      <div class="column">
+        <figure class="figure">
+          <img
+            src="{% static 'img/little_lemon_tables.jpg' %}"
+            alt="Little Lemon Interior"
+          />
+        </figure>
+      </div>
+      <!--End col-->
+    </div>
+    <!--End row-->
+  </article>
+</section>
+{% endblock %}

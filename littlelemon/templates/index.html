@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section>
+    <article id="hero">
+      <h1 class="heading_shadow">We're waiting for you</h1>
+      <p>
+        There's free drinks if it's your first time. 
+      </p>
+    </article>
+  </section>
+  <section>
+    <article>
+      <h2>Menu</h2>
+      <p>
+        Everything is delicious.
+      </p>
+      <p>
+        <a href="{% url 'menu' %}">Menu</a>
+      </p>
+      <img src="{% static 'img/lemon_pie2.png' %}">
+    </article>
+    <article>
+      <h2>Opening Hours</h2>
+      <p>
+        The Little Lemon Restaurant from Monday to Saturday from 10 am to 22 pm. 
+      </p>
+      <img src="{% static 'img/lemon_inside2.png' %}">
+    </article>
+  </section>
+{% endblock %}
